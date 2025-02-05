@@ -53,18 +53,11 @@ pip install pandas numpy scipy matplotlib seaborn
 
 ## Como Rodar
 
-1.  **Clone o repositório:**
-
-    ```bash
-    git clone <URL_DO_REPOSITÓRIO>
-    cd <DIRETÓRIO_DO_REPOSITÓRIO>
-    ```
-
-2.  **Certifique-se de ter os dados necessários:**
+1.  **Certifique-se de ter os dados necessários:**
 
     Os arquivos CSV com os dados gerais (`Dados_Gerais.csv`) e de vacinação (`NumeroVacinados_1.csv`) devem estar presentes no diretório raiz do projeto. Esses arquivos devem ser baixados dos links fornecidos na seção de referências do notebook.
 
-3.  **Execute o Notebook:**
+2.  **Execute o Notebook:**
 
     Abra o arquivo `Modelo SIRDV para simulação da COVID-19 em Pernambuco.ipynb` utilizando o Jupyter Notebook ou Google Colab:
 
@@ -77,7 +70,7 @@ pip install pandas numpy scipy matplotlib seaborn
     1.  Acesse o Google Colab ([colab.research.google.com](https://colab.research.google.com/)).
     2.  Faça o upload do arquivo `Modelo SIRDV para simulação da COVID-19 em Pernambuco.ipynb`.
 
-4.  **Execute as Células:**
+3.  **Execute as Células:**
 
     Execute as células do notebook sequencialmente. Certifique-se de que todas as bibliotecas foram importadas corretamente e que os dados estão sendo carregados sem erros. A última célula gerará o gráfico da simulação SIRDV.
 
